@@ -9,9 +9,10 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "chromatic": "chromatic"
+    "chromatic": "chromatic --project-token CHROMATIC_PROJECT_TOKEN"
   },
   "dependencies": {
+    "esbuild-darwin-arm64": "^0.15.18",
     "next": "14.0.2",
     "react": "^18",
     "react-dom": "^18"
